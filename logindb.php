@@ -1,4 +1,5 @@
 <?php
+session_start();
 include ('db.php');
 if (isset($_POST)){
     $form = $_GET;
@@ -19,32 +20,45 @@ if (isset($_POST)){
     );
 
     $count= $statement->rowCount();
-    $row=$statement->fetch(PDO::FETCH_ASSOC);
-    if($count == 1) {
-//        $role=$row['Role'];
-//        switch ($role){
-//            case 'Admin':
-//                header( "Location:../src/Admin.php");
-//
-//                break;
-//            case 'Nurse':
-//                header( "Location:../src/Index.php");
-//
-//
-//                break;
-//            case 'donor':
-//                echo 'donor';
-//                break;
-//
-//        }
-        $update=$db->query("update register_user set verified= 1 WHERE vkey='$vkey'");
+
+    if($count >0) {
+        $count= $statement->rowCount();
+        $row=$statement->fetch(PDO::FETCH_ASSOC);
+        if($count == 1) {
+            $role = $row['role'];
+            switch ($role) {
+                case 'admin':
+                    header("Location:adminindex.php");
+
+                    break;
+                case 'farmer':
+                    header("Location:farmer.php");
+
+
+                    break;
+                case 'donor':
+                    echo 'donor';
+                    break;
+
+            }
+        }
+        echo "success";
+
+        $query="update register_user set verified = '1' WHERE username = :username AND Password = :password AND vkey= :vkey";
         $statement= $db->prepare($query);
         $statement->execute(
             array(
-                'vkey' => $vkey
-        )
+                'username' => $username,
+                'password' => $Password,
+                'vkey' =>$vkey
+            )
         );
-        echo "login success";
+
+
+
+        $_SESSION["name"] = $username;
+
+//        header("Location:farmer.php");
 
     }
 

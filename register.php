@@ -46,30 +46,48 @@ include ('db.php');
         //gen v key
         $vkey = md5(time() . $username);
 
+        //check if username is taken
+        $query = "SELECT * FROM register_user WHERE username = :username ";
+        $statement = $db->prepare($query);
+        $statement->execute(
+            array(
+                'username' => $username
 
-        $sql = "INSERT INTO register_user (username, password, email, vkey) VALUES (:username,:password,:email,:vkey)";
-        $query = $db->prepare($sql);
-        $result = $query->execute(array(':username' => $username, ':password' => $password, ':email' => $email, ':vkey' => $vkey));
-        if ($result) {
-            echo "registration success";
-            //sendingemail
-            $to=$email;
-            $subject = "email verification";
-            $message = "kindly use the following key to register your account $vkey";
-            $headers=  "from:kenmbelenzi@gmail.com \r\n";
-            $headers .="MIME-Version: 1.0"."r\n";
-            $headers .="Content-type:text/html;charset=UTF-8"."r\n";
+            )
+        );
 
-            mail("$to","$subject","$message","$headers");
+        $count = $statement->rowCount();
 
-            header("Location:login.php");
+        if ($count > 0) {
+            echo "username is already taken choose another one";
 
-           echo "sent";
 
         } else {
-            echo "registration failed";
+
+
+            $sql = "INSERT INTO register_user (username, password, email, vkey) VALUES (:username,:password,:email,:vkey)";
+            $query = $db->prepare($sql);
+            $result = $query->execute(array(':username' => $username, ':password' => $password, ':email' => $email, ':vkey' => $vkey));
+            if ($result) {
+                echo "registration success";
+                //sendingemail
+                $to = $email;
+                $subject = "email verification";
+                $message = "kindly use the following key to register your account $vkey";
+                $headers = "from:kenmbelenzi@gmail.com \r\n";
+                $headers .= "MIME-Version: 1.0" . "r\n";
+                $headers .= "Content-type:text/html;charset=UTF-8" . "r\n";
+
+                mail("$to", "$subject", "$message", "$headers");
+
+                header("Location:Verificationlogin.php");
+
+                echo "sent";
+
+            } else {
+                echo "registration failed";
+            }
         }
     }
-
 
 

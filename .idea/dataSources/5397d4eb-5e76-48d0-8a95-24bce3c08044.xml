@@ -1074,93 +1074,100 @@
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="268" parent="254" name="PRIMARY">
+    <column id="268" parent="254" name="role">
+      <Position>8</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="269" parent="254" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="269" parent="255" name="id">
+    <column id="270" parent="255" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="255" name="FirstName">
+    <column id="271" parent="255" name="FirstName">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="255" name="LastName">
+    <column id="272" parent="255" name="LastName">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="255" name="Password">
+    <column id="273" parent="255" name="Password">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="255" name="Email">
+    <column id="274" parent="255" name="Email">
       <Position>5</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="274" parent="255" name="PRIMARY">
+    <key id="275" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="275" parent="256" name="idusers">
+    <column id="276" parent="256" name="idusers">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="256" name="FirstName">
+    <column id="277" parent="256" name="FirstName">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="256" name="MiddleName">
+    <column id="278" parent="256" name="MiddleName">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="256" name="LastName">
+    <column id="279" parent="256" name="LastName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="279" parent="256" name="Email">
+    <column id="280" parent="256" name="Email">
       <Position>5</Position>
       <DataType>varchar(225)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="256" name="Password">
+    <column id="281" parent="256" name="Password">
       <Position>6</Position>
       <DataType>varchar(225)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="256" name="Role">
+    <column id="282" parent="256" name="Role">
       <Position>7</Position>
       <DataType>varchar(8)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="282" parent="256" name="idusers_UNIQUE">
+    <index id="283" parent="256" name="idusers_UNIQUE">
       <ColNames>idusers</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="283" parent="256" name="idusers_UNIQUE">
+    <key id="284" parent="256" name="idusers_UNIQUE">
       <ColNames>idusers</ColNames>
       <UnderlyingIndexName>idusers_UNIQUE</UnderlyingIndexName>
     </key>

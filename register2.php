@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Creative Colorlib SignUp Form</title>
+    <title>Lishe Bora SignUp Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -21,7 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <!-- main -->
 <div class="main-w3layouts wrapper">
-    <h1>Creative SignUp Form</h1>
+    <h1>SignUp Form</h1>
     <div class="main-agileinfo">
         <div class="agileits-top">
             <form action="register.php" method="POST">
@@ -38,7 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <input type="submit" value="SIGNUP">
             </form>
-            <p>Don't have an Account? <a href="#"> Login Now!</a></p>
+            <p>Already have an Account? <a href="Verificationlogin.php"> Login Now!</a></p>
         </div>
     </div>
     <!-- copyright -->

@@ -8,11 +8,11 @@ $update='false';
 $id=0;
 if (isset($_POST['save'])){
     $username = $_POST ['username'];
-    $location = $_POST['useremail'];
+    $location = $_POST['email'];
 
 
 
-    $mysqli -> query ("insert into data (name, location) VALUES ('$name','$location')") or die($mysqli->error);
+    $mysqli -> query ("insert into register_user (username, email) VALUES ('$username','$location')") or die($mysqli->error);
     $_SESSION['message']='record saved';
     $_SESSION['msg_type'] = 'success';
 
@@ -43,7 +43,7 @@ if (isset($_POST['update'])){
     $id=$_POST['id'];
     $name = $_POST['username'];
     $location =$_POST['useremail'];
-    $mysqli->query("update data set name='$name', location='$location' where id=$id") or die($mysqli->error);
+    $mysqli->query("update register_user set username='$name', email='$location' where id=$id") or die($mysqli->error);
     $_SESSION['message'] = 'record updated';
     $_SESSION ['msg_type']='warning';
 

@@ -1,106 +1,71 @@
-<?require 'db.php'?>
+<?require 'db.php';
+include "adminsidenav.php";
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Lishe Bora</title>
 </head>
 <body>
-
-<?php require_once 'database.php';?>
-
-<?php
-if(isset($_SESSION['message']))?>
-<div class="alert alert-<?=$_SESSION['msg_type']?>">
-
-
-    <?php
-    echo $_SESSION['message'];
-    unset ($_SESSION ['message']);
-    ?>
-</div>
-<?php //endif ?>
-<div class="darkcontainer">
-<?php
-include 'db.php';
-$mysqli= new mysqli('localhost',"root",'','lishebora');
-$result= $mysqli ->query("select * from register_user");
-//pre_r($result);
+<?
+include "adminsidenav.php";
 ?>
-<div class="row justify-content-center">
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Username</th>
-            <th>Email</th>
-            <th colspan="2">Action</th>
-        </tr>
-        </thead>
-        <?php
-        while ($row=$result->fetch_assoc()):
+<div class="sidenav">
+<ul class="nav flex-column">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+</ul>
+</div>
+<div class="container">
+<table border="1" cellspacing="5" cellpadding="5" width="100%" class="table table-dark">
+    <thead>
+    <tr>
+        <th>No.</th>
+        <th>First Name</th>
+        <th>email</th>
+        <th>Actions</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <?php
+    require_once('db.php');
+    $result = $db->prepare("SELECT * FROM register_user ORDER BY id ASC");
+    $result->execute();
+    for($i=0; $row = $result->fetch(); $i++){
         ?>
         <tr>
-            <td><?php echo $row ['username'];?></td>
-            <td><?php echo $row ['useremail'];?></td>
+            <td><label><?php echo $row['id']; ?></label></td>
+            <td><label><?php echo $row['username']; ?></label></td>
+            <td><label><?php echo $row['email']; ?></label></td>
             <td>
-                <a href="adminindex.php?edit=<?php echo $row['id'];?>"
-                   class="btn btn-info">Edit</a>
-                <a href="adminindex.php?delete=<?php echo $row['id'];?>"
-                   class="btn btn danger">delete</a>
-            </td>
+                                <a href="update.php?id=<?php echo $row['id'];?>"
+                                   class="btn btn-info">Edit</a>
+                                <a href="delete.php?id=<?php echo $row['id'];?>"
+                                   class="btn btn-danger">delete</a>
+                            </td>
+
+
         </tr>
-        <?php endwhile; ?>
-    </table>
+    <?php } ?>
+    </tbody>
+</table>
 </div>
-<?php
-pre_r($result->fetch_assoc());
 
-function pre_r($array){
-    echo '<pre>';
-    print_r($array);
-    echo '</pre';
-}
-?>
-<div class="row justify-content-center">
-  <form action="database.php" method="post">
-<input type="hidden" name="id" value="<?php echo $id ?>">
-
-    <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" value="<?php echo $name?>" name="name" id="name" placeholder="Input your name">
-    </div>
-    <div class="form-group">
-        <label for="location">Email</label>
-        <input type="text" class="form-control" value="<?php  ?>" name="useremail" id="location" placeholder="Input your email">
-    </div>
-
-      <div class="form-group">
-          <?php
-          if ($update == true):
-          ?>
-          <button type="submit" name="update" class="btn btn-primary">update</button>
-          <?php
-          else:
-          ?>
-<div class="form-group">
-          <button type="submit" name="save" class="btn btn-primary">Save</button>
-</div>
-          <?php
-          endif
-          ?>
-
-      </div>
-
-
-
-
-
-
-</form>
-</div>
-</div>
 </body>
