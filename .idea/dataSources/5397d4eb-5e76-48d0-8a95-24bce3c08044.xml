@@ -996,87 +996,86 @@
     <table id="253" parent="8" name="data">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="254" parent="8" name="register_user">
+    <table id="254" parent="8" name="raw_materials">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="255" parent="8" name="user">
+    <table id="255" parent="8" name="register_user">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="256" parent="8" name="users">
+    <table id="256" parent="8" name="user">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="257" parent="253" name="id">
+    <table id="257" parent="8" name="users">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="258" parent="253" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="253" name="name">
+    <column id="259" parent="253" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="253" name="location">
+    <column id="260" parent="253" name="location">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="260" parent="253" name="PRIMARY">
+    <key id="261" parent="253" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="261" parent="254" name="id">
+    <column id="262" parent="254" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="254" name="username">
+    <column id="263" parent="254" name="ingredient">
       <Position>2</Position>
-      <DataType>varchar(250)|0</DataType>
+      <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="254" name="password">
+    <column id="264" parent="254" name="protein">
       <Position>3</Position>
-      <DataType>varchar(250)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="264" parent="254" name="email">
-      <Position>4</Position>
-      <DataType>varchar(250)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="265" parent="254" name="vkey">
-      <Position>5</Position>
-      <DataType>varchar(250)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="266" parent="254" name="verified">
-      <Position>6</Position>
-      <DataType>tinyint(4)|0</DataType>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="267" parent="254" name="createdate">
-      <Position>7</Position>
-      <DataType>timestamp|0</DataType>
+    <column id="265" parent="254" name="me">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="268" parent="254" name="role">
-      <Position>8</Position>
-      <DataType>varchar(12)|0</DataType>
+    <column id="266" parent="254" name="calcium">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="254" name="lysine">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="268" parent="254" name="price">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
@@ -1093,81 +1092,138 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="255" name="FirstName">
+    <column id="271" parent="255" name="username">
       <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="255" name="LastName">
+    <column id="272" parent="255" name="password">
       <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="255" name="Password">
+    <column id="273" parent="255" name="email">
       <Position>4</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="255" name="Email">
+    <column id="274" parent="255" name="vkey">
       <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="275" parent="255" name="PRIMARY">
+    <column id="275" parent="255" name="verified">
+      <Position>6</Position>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="276" parent="255" name="createdate">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="277" parent="255" name="role">
+      <Position>8</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="278" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="276" parent="256" name="idusers">
+    <column id="279" parent="256" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="256" name="FirstName">
+    <column id="280" parent="256" name="FirstName">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="256" name="MiddleName">
+    <column id="281" parent="256" name="LastName">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="256" name="Password">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="256" name="Email">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="284" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="285" parent="257" name="idusers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="257" name="FirstName">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="257" name="MiddleName">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="279" parent="256" name="LastName">
+    <column id="288" parent="257" name="LastName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="256" name="Email">
+    <column id="289" parent="257" name="Email">
       <Position>5</Position>
       <DataType>varchar(225)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="256" name="Password">
+    <column id="290" parent="257" name="Password">
       <Position>6</Position>
       <DataType>varchar(225)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="256" name="Role">
+    <column id="291" parent="257" name="Role">
       <Position>7</Position>
       <DataType>varchar(8)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="283" parent="256" name="idusers_UNIQUE">
+    <index id="292" parent="257" name="idusers_UNIQUE">
       <ColNames>idusers</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="284" parent="256" name="idusers_UNIQUE">
+    <key id="293" parent="257" name="idusers_UNIQUE">
       <ColNames>idusers</ColNames>
       <UnderlyingIndexName>idusers_UNIQUE</UnderlyingIndexName>
     </key>
