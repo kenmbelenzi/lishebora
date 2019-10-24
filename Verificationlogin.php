@@ -24,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <h1>Login Form</h1>
     <div class="main-agileinfo">
         <div class="agileits-top">
-            <form action="logindb.php" method="get">
+            <form action="database/logindb.php" method="get">
                 <input class="text" type="text" name="username" placeholder="Username" required="">
 
                 <input class="text" type="password" name="password" placeholder="Password" required="">

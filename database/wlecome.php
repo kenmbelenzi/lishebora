@@ -1,6 +1,6 @@
 <?php
-include ('db.php');
-include ('register.php');
+include('db.php');
+include('register.php');
 if (isset($_GET['vkey'])){
 //    process verification
     $vkey=$_GET['vkey'];

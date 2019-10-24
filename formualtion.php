@@ -11,11 +11,9 @@ function fill_unit_select_box($connect)
     $result = $statement->fetchAll();
     foreach($result as $row)
     {
-        $output .= '<option value="'.$row["price"].'">'.$row["price"].'</option>';
-//        $output2 .= '<option value="'.$row["recepie"].'">'.$row["recepie"].'</option>';
+        $output .= '<option value="'.$row["ingredient"].'">'.$row["ingredient"].'</option>';
     }
     return $output;
-    //    return $output2;
 }
 
 ?>
@@ -34,15 +32,14 @@ function fill_unit_select_box($connect)
     <br />
     <h4 align="center">Enter Item Details</h4>
     <br />
-    <form method="post" id="insert_form">
+    <form method="post" id="insert_form" action="database/insert.php">
         <div class="table-repsonsive">
             <span id="error"></span>
             <table class="table table-bordered" id="item_table">
                 <tr>
-                    <th>Enter raw material</th>
+                    <th>Enter Item Name</th>
                     <th>Enter Quantity</th>
-                    <th>enter price</th>
-                    <th>total price</th>
+                    <th>Select Unit</th>
                     <th><button type="button" name="add" class="btn btn-success btn-sm add"><span class="glyphicon glyphicon-plus"></span></button></th>
                 </tr>
             </table>
@@ -61,12 +58,9 @@ function fill_unit_select_box($connect)
         $(document).on('click', '.add', function(){
             var html = '';
             html += '<tr>';
-            html += '<td><select name="item_name[]" class="form-control item_unit"><option value="">Select raw material</option><?php echo fill_unit_select_box($connect); ?></select></td>';
-            html += '<td><input type="text" name="item_quantity[]" class="form-control item_name" /></td>';
-            html += '<td><input type="text" name="item_price[]" class="form-control item_quantity" /></td>';
-            html += '<td><input type="text" name="total_price[]" class="form-control item_quantity" /></td>';
-
-
+            html += '<td><input type="text" name="item_name[]" class="form-control item_name" /></td>';
+            html += '<td><input type="text" name="item_quantity[]" class="form-control item_quantity" /></td>';
+            html += '<td><select name="item_unit[]" class="form-control item_unit"><option value="">Select Unit</option><?php echo fill_unit_select_box($connect); ?></select></td>';
             html += '<td><button type="button" name="remove" class="btn btn-danger btn-sm remove"><span class="glyphicon glyphicon-minus"></span></button></td></tr>';
             $('#item_table').append(html);
         });
@@ -130,19 +124,5 @@ function fill_unit_select_box($connect)
             }
         });
 
-    $('tr').each(function () {
-        var total_price = 0;
-        $(this).find('.item_quantity').each(function () {
-            var marks=$(this).text();
-            if(marks.length >0)
-            {
-                total_price+=parseFloat(marks)
-            }
-        });
-        $(this).find('#total_price').html('='+total_price);
     });
-    });
-
-
-
 </script>

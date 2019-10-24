@@ -1,5 +1,5 @@
 <?php
-include ('db.php');
+include('db.php');
 //
 //$form=$_POST;
 //$FirstName=$form['FirstName'];
@@ -80,7 +80,7 @@ include ('db.php');
 
                 mail("$to", "$subject", "$message", "$headers");
 
-                header("Location:Verificationlogin.php");
+                header("Location:../Verificationlogin.php");
 
                 echo "sent";
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ('db.php');
+include('db.php');
 if (isset($_POST)){
     $form = $_GET;
 
@@ -28,11 +28,11 @@ if (isset($_POST)){
             $role = $row['role'];
             switch ($role) {
                 case 'admin':
-                    header("Location:adminindex.php");
+                    header("Location:../adminindex.php");
 
                     break;
                 case 'farmer':
-                    header("Location:farmer.php");
+                    header("Location:../farmer.php");
 
 
                     break;

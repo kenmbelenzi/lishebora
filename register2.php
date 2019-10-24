@@ -24,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <h1>SignUp Form</h1>
     <div class="main-agileinfo">
         <div class="agileits-top">
-            <form action="register.php" method="POST">
+            <form action="database/register.php" method="POST">
                 <input class="text" type="text" name="username" placeholder="Username" required="">
                 <input class="text email" type="email" name="email" placeholder="Email" required="" id="email">
                 <input class="text" type="password" name="password" placeholder="Password" required="">
