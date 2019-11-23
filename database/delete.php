@@ -20,7 +20,7 @@ if (isset($_GET["id"])) {
 
         $success = "User successfully deleted";
         echo $success;
-        header("Location:adminindex.php");
+        header("Location:../adminindex.php");
     } catch(PDOException $error) {
         echo $sql . "<br>" . $error->getMessage();
     }

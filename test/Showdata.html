@@ -1,0 +1,36 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+<body>
+<script>
+    document.getElementById('info').innerHTML ="";
+    var myTab = document.getElementById('purchaseItems');
+    for (i = 1; i < myTab.rows.length; i++) {
+    var objCells = myTab.rows.item(i).cells;
+        // LOOP THROUGH EACH CELL OF THE CURENT ROW TO READ CELL VALUES.
+        for (var j = 0; j < objCells.length; j++) {
+            info.innerHTML = info.innerHTML + ' ' + objCells.item(j).innerHTML;
+        }
+        info.innerHTML = info.innerHTML + '<br />';     // ADD A BREAK (TAG).
+    }
+
+
+
+</script>
+
+</body>

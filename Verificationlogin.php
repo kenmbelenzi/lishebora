@@ -32,6 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <input type="submit" value="Login">
             </form>
+            <p>Dont have an Account? <a href="register2.php"> Signup Now!</a></p>
 
         </div>
     </div>

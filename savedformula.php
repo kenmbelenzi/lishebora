@@ -1,6 +1,15 @@
 <?php
 
 
+session_start();
+if(isset($_SESSION["name"])) {
+    $role = $_SESSION["role"];
+    if (strcmp($role, 'admin') == 0) {
+        include 'adminsidenav.php';
+    } else {
+        include 'farmersidenav.php';
+    }
+}
 $connect = new PDO("mysql:host=localhost;dbname=lishebora", "root", "");
 function fill_unit_select_box($connect)
 {
@@ -18,9 +27,9 @@ function fill_unit_select_box($connect)
 
 ?>
 
-<form action="savedformulations.php" method="post">
-<!--<td><select id="formula" name="item_unit[] formula" class="form-control formula"><option value="">Select formula</option>--><?php //echo fill_unit_select_box($connect); ?><!--</select></td>-->
-    <input class="text" type="text" name="formula" placeholder="Username" required="">
+<form action="../lishebora/showformulation/show.php" method="post">
+<td><select id="formulaname" name="formulaname" class="form-control formula"><option name="formulaname"value="">Select formula</option><?php echo fill_unit_select_box($connect); ?></select></td>
+
 
     <button class=""> submit </button>
 </form>

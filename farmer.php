@@ -26,8 +26,8 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
         <div class="sidebar-heading">Lishe Bora </div>
         <div class="list-group list-group-flush">
-            <a href="test/calculator.php" class="list-group-item list-group-item-action bg-light">Create new formulation</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Insert new raw materials</a>
+            <a href="./test/save.php" class="list-group-item list-group-item-action bg-light">Create new formulation</a>
+            <a href="./newrawmaterial.php" class="list-group-item list-group-item-action bg-light">Insert new raw materials</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">View saved formulations</a>
 
         </div>
@@ -42,12 +42,18 @@
         session_start();
         if(isset($_SESSION["name"]))
         {
-            echo '<h3>Login Success, Welcome - '.$_SESSION["name"].'</h3>';
+            $role=$_SESSION["role"];
+            if(strcmp($role,'admin') == 0){
+            echo '<h3>Login Success, Welcome - '.$_SESSION["role"].'</h3>';
             echo '<br /><br /><a href="logout.php">Logout</a>';
+                }
+                else{
+                header("location:index.php");
+                }
         }
         else
         {
-            echo"failed";
+            header("location:index.php");
         }
 
         ?>

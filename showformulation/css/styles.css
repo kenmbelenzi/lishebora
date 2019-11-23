@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,400italic);
+
+body{
+	background:#7acdc8;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login, .register, .forgotPass{
+	width: 350px;
+	margin: 200px auto;
+}
+
+.register{
+	position: relative;
+}
+.forgotPass{
+	position: relative;
+}
+
+.register-js{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -175px;
+}
+
+.forgotPass-js{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -175px;
+}
+
+h1{
+	font-size: 24px;
+	font-weight: 200;
+	color: white;
+	border-bottom: 1px solid white;
+	line-height: 40px;
+}
+.lblock{
+	margin-top: 40px;
+	background: #62a7a3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10% 10%;
+	padding-bottom: 40px;
+	-webkit-box-shadow: 0 7px 0 #75c5c0;
+	-moz-box-shadow: 0 7px 0 #75c5c0;
+	-o-box-shadow: 0 7px 0 #75c5c0;
+	box-shadow: 0 7px 0 #75c5c0;
+}
+
+input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lblock .text{
+	outline: none;
+	width: 97%;
+	background: #7accc8;
+	border: none;	
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.lblock .text:hover{
+	background: #91d9d5;
+}
+
+.lblock .text:focus{
+	background: #92dad6;
+}
+
+#lilpls{
+	padding-bottom: 15px;
+}
+
+.lblock input[type="checkbox"]{
+	margin-left: 0px;
+	margin-top: 1px;
+	float: left;	
+	cursor: pointer;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	background: #7accc8;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #7accc8;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+input[type="checkbox"]:hover{
+	background: #98d8d5;
+}
+input[type="checkbox"]:active{
+	background: #bbe8e6;
+}
+
+input[type="checkbox"]:checked{
+	background: #2b6461;
+}
+
+.lblock p#rem{
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 5px;
+	float: left;
+}
+
+.lblock p#forgot{
+	float: right;
+	color: rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.lblock p#forgot:hover{
+	float: right;
+	color: rgba(0,0,0,0.8);
+	cursor: pointer;
+}
+
+.lbut input, .lbut button{
+	margin-top: 40px;
+	float: left;
+	width: 45%;
+	height: 45px;
+	background: #62a7a3;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 7px 0 #75c5c0;
+	-moz-box-shadow: 0 7px 0 #75c5c0;
+	-o-box-shadow: 0 7px 0 #75c5c0;
+	box-shadow: 0 7px 0 #75c5c0;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.lbut input:hover, .lbut button:hover{
+	background: #68b0ac;
+	cursor: pointer;
+}
+
+.lbut input:active, .lbut button:active{
+	background: #55928e;
+	position: relative;
+	top: 5px;
+	-webkit-box-shadow: 0 0px 0 #75c5c0;
+	-moz-box-shadow: 0 0px 0 #75c5c0;
+	-o-box-shadow: 0 0px 0 #75c5c0;
+	box-shadow: 0 0px 0 #75c5c0;
+}
+
+.lbut input[type="button"]{
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+}

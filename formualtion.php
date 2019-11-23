@@ -46,6 +46,7 @@ function fill_unit_select_box($connect)
             <div align="center">
                 <input type="submit" name="submit" class="btn btn-info" value="Insert" />
             </div>
+            <p id="info"></p>
         </div>
     </form>
 </div>
@@ -58,8 +59,8 @@ function fill_unit_select_box($connect)
         $(document).on('click', '.add', function(){
             var html = '';
             html += '<tr>';
-            html += '<td><input type="text" name="item_name[]" class="form-control item_name" /></td>';
-            html += '<td><input type="text" name="item_quantity[]" class="form-control item_quantity" /></td>';
+            html += '<td><input type="text" name="item_name" class="form-control item_name" /></td>';
+            html += '<td><input type="text" name="item_quantity" class="form-control item_quantity" /></td>';
             html += '<td><select name="item_unit[]" class="form-control item_unit"><option value="">Select Unit</option><?php echo fill_unit_select_box($connect); ?></select></td>';
             html += '<td><button type="button" name="remove" class="btn btn-danger btn-sm remove"><span class="glyphicon glyphicon-minus"></span></button></td></tr>';
             $('#item_table').append(html);

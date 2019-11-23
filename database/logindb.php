@@ -63,7 +63,7 @@ if (isset($_POST)){
     }
 
     else{
-        $error = "username/password incorrect please <a href='../src/Login.php'>login again</a>";
+        $error = "username/password incorrect please <a href='../Verificationlogin.php'>login again</a>";
         $_SESSION["$error"] = $error;
         echo $error;
 
