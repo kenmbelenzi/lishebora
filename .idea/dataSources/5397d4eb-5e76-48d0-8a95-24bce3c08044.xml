@@ -1075,184 +1075,233 @@
       <DataType>float|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="271" parent="255" name="PRIMARY">
+    <column id="271" parent="255" name="fat">
+      <Position>6</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="255" name="methionine">
+      <Position>7</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="273" parent="255" name="phosphorous">
+      <Position>8</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="274" parent="255" name="fiber">
+      <Position>9</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="275" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>feed_type</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="272" parent="256" name="id">
+    <column id="276" parent="256" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="256" name="ingredient">
+    <column id="277" parent="256" name="ingredient">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="256" name="protein">
+    <column id="278" parent="256" name="protein">
       <Position>3</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="256" name="me">
+    <column id="279" parent="256" name="me">
       <Position>4</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="256" name="calcium">
+    <column id="280" parent="256" name="calcium">
       <Position>5</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="256" name="lysine">
+    <column id="281" parent="256" name="lysine">
       <Position>6</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="256" name="price">
+    <column id="282" parent="256" name="price">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="279" parent="256" name="userid">
+    <column id="283" parent="256" name="userid">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="280" parent="256" name="raw_materials_register_user_id_fk">
+    <column id="284" parent="256" name="fat">
+      <Position>9</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="256" name="methionine">
+      <Position>10</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="256" name="fiber">
+      <Position>11</Position>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="256" name="phosphorous">
+      <Position>12</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="288" parent="256" name="raw_materials_register_user_id_fk">
       <ColNames>userid</ColNames>
     </index>
-    <key id="281" parent="256" name="PRIMARY">
+    <key id="289" parent="256" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="282" parent="256" name="raw_materials_register_user_id_fk">
+    <foreign-key id="290" parent="256" name="raw_materials_register_user_id_fk">
       <ColNames>userid</ColNames>
       <RefSchemaName>lishebora</RefSchemaName>
       <RefTableName>register_user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="283" parent="257" name="id">
+    <column id="291" parent="257" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="257" name="username">
+    <column id="292" parent="257" name="username">
       <Position>2</Position>
       <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="257" name="password">
+    <column id="293" parent="257" name="password">
       <Position>3</Position>
       <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="257" name="email">
+    <column id="294" parent="257" name="email">
       <Position>4</Position>
       <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="257" name="vkey">
+    <column id="295" parent="257" name="vkey">
       <Position>5</Position>
       <DataType>varchar(250)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="257" name="verified">
+    <column id="296" parent="257" name="verified">
       <Position>6</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="257" name="createdate">
+    <column id="297" parent="257" name="createdate">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="257" name="role">
+    <column id="298" parent="257" name="role">
       <Position>8</Position>
       <DataType>varchar(12)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;farmer&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="291" parent="257" name="PRIMARY">
+    <key id="299" parent="257" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="292" parent="258" name="formulation">
+    <column id="300" parent="258" name="formulation">
       <Position>1</Position>
       <DataType>blob|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="259" name="id">
+    <column id="301" parent="259" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="259" name="username">
+    <column id="302" parent="259" name="username">
       <Position>2</Position>
       <DataType>varchar(80)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="259" name="fname">
+    <column id="303" parent="259" name="fname">
       <Position>3</Position>
       <DataType>varchar(60)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="259" name="lname">
+    <column id="304" parent="259" name="lname">
       <Position>4</Position>
       <DataType>varchar(60)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="259" name="email">
+    <column id="305" parent="259" name="email">
       <Position>5</Position>
       <DataType>varchar(60)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="259" name="age">
+    <column id="306" parent="259" name="age">
       <Position>6</Position>
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="259" name="salary">
+    <column id="307" parent="259" name="salary">
       <Position>7</Position>
       <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="300" parent="259" name="PRIMARY">
+    <key id="308" parent="259" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
