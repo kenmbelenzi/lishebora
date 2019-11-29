@@ -33,7 +33,7 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
         <div class="sidebar-heading">Lishe Bora </div>
         <div class="list-group list-group-flush">
-            <a href="./test/save.php" class="list-group-item list-group-item-action bg-light">Create new formulation</a>
+            <a href="./newformulation.php" class="list-group-item list-group-item-action bg-light">Create new formulation</a>
             <a href="./newrawmaterial.php" class="list-group-item list-group-item-action bg-light">Insert new raw materials</a>
             <a href="savedformula.php" class="list-group-item list-group-item-action bg-light">View saved formulations</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Add new user</a>

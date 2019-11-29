@@ -17,6 +17,7 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
 </head>
+<div id="page-content-wrapper">
 
 <body>
 
@@ -78,5 +79,6 @@
 </script>
 
 </body>
+</div>
 
 </html>

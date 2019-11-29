@@ -27,7 +27,7 @@ function fill_unit_select_box($connect)
 
 ?>
 
-<form action="../lishebora/simplex/test.php" method="post">
+<form action="../lishebora/simplex-master%20(5)/simplex-master/demo.php" method="post">
     <td><select id="formulaname" name="formulaname" class="form-control formula"><option name="formulaname"value="">Select formula</option><?php echo fill_unit_select_box($connect); ?></select></td>
 
 

@@ -23,11 +23,19 @@ if(isset($_POST)) {
             }
         }
     }
+
+}
     Print  "Data added Successfully";
 
-
-    header("location:/lishebora/simplex/test.php");
+include "database/db.php";
+$sql ="insert into form (formula) VALUES (:form)";
+$statement = $db->prepare($sql);
+$statement->execute(
+    array(
+        ':form'   => $formulaname,
+    )
+);
 
     mysqli_close($con);
-}
+
 ?>

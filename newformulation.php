@@ -38,20 +38,20 @@ function fill_unit_select_box($connect)
 <form id="form1" name="form1" method="post" action="saveFormulation.php">
 
     <div class="form-group">
-        <label for="formulaname">formulaname</label>
+        <label for="formulaname">Formula Name</label>
         <input type="text" name="formulaname" class="form-control" id="formulaname">
     </div>
 
     <div class="form-group">
-        <label for="ingredient">ingredient</label>
-      <select id="ingredient" name="ingredient"<option id="ingredient" name="ingredient" value="">Select Unit</option><?php echo fill_unit_select_box($connect); ?></select>
+        <label for="ingredient">Ingredient</label>
+      <select class="form-control" id="ingredient" name="ingredient"<option id="ingredient" name="ingredient" value="">Select Unit</option><?php echo fill_unit_select_box($connect); ?></select>
     </div>
     <div class="form-group">
-        <label for="quantity">quantity</label>
+        <label for="quantity">Quantity</label>
         <input type="text" name="quantity" class="form-control" id="quantity">
     </div>
     <div class="form-group">
-        <label for="price">price</label>
+        <label for="price">Price</label>
         <input type="text" name="price" class="form-control" id="price">
     </div>
     <input type="button" name="send" class="btn btn-primary" value="add data" id="butsend">

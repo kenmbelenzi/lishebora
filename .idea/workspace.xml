@@ -2,9 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="753273c9-e9e7-4067-b110-7e731ba1e70a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/delete.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/read.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/showusers.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/LPdefs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/LPmethods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/db.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simplex-master (5)/simplex-master/demo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/update.php" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5397d4eb-5e76-48d0-8a95-24bce3c08044.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/5397d4eb-5e76-48d0-8a95-24bce3c08044.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/simplex.php" afterPath="$PROJECT_DIR$/simplex.php" />
+      <change beforePath="$PROJECT_DIR$/adminsidenav.php" afterPath="$PROJECT_DIR$/adminsidenav.php" />
+      <change beforePath="$PROJECT_DIR$/css/simple-sidebar.css" afterPath="$PROJECT_DIR$/css/simple-sidebar.css" />
+      <change beforePath="$PROJECT_DIR$/farmer.php" afterPath="$PROJECT_DIR$/farmer.php" />
+      <change beforePath="$PROJECT_DIR$/farmersidenav.php" afterPath="$PROJECT_DIR$/farmersidenav.php" />
+      <change beforePath="$PROJECT_DIR$/formualtion.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/newformulation.php" afterPath="$PROJECT_DIR$/newformulation.php" />
+      <change beforePath="$PROJECT_DIR$/newrawmaterial.php" afterPath="$PROJECT_DIR$/newrawmaterial.php" />
+      <change beforePath="$PROJECT_DIR$/optimiseformulation.php" afterPath="$PROJECT_DIR$/optimiseformulation.php" />
+      <change beforePath="$PROJECT_DIR$/save.php" afterPath="$PROJECT_DIR$/save.php" />
+      <change beforePath="$PROJECT_DIR$/saveFormulation.php" afterPath="$PROJECT_DIR$/saveFormulation.php" />
+      <change beforePath="$PROJECT_DIR$/showformulation/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/showformulation/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/dataSources/fc879467-3fc1-4e7f-b849-ca2c80c140de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/php.xml" afterPath="$PROJECT_DIR$/simplex-master (5)/.idea/php.xml" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/simplex-solver-2016-11-19.iml" afterPath="$PROJECT_DIR$/simplex-master (5)/.idea/simplex-master (5).iml" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/TSimplex.class.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/data.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/screenshot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/setting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex-solver-2016-11-19/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/dataSources/fc879467-3fc1-4e7f-b849-ca2c80c140de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/php.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/simplex-solver-2016-11-19.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/TSimplex.class.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/data.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/screenshot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/setting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simplex/test.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,6 +103,13 @@
         <item name="lishebora@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lishebora: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="kebs_requirements: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lishebora@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lishebora: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="raw_materials: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
@@ -70,80 +127,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="adminsidenav.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminsidenav.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="optimiseformulation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/optimiseformulation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="126">
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
               <folding>
-                <marker date="1574508736716" expanded="true" signature="367:418" ph="SELECT * FRO... formulations" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplex/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#61#2070#0#PHP" expanded="false" />
-                <marker date="1574508736743" expanded="true" signature="2165:2215" ph="select *from... formulations" />
-                <marker date="1574508736743" expanded="true" signature="2337:2394" ph="SELECT * FRO... formulations" />
-                <marker date="1574508736743" expanded="true" signature="2730:2786" ph="SELECT * FRO... raw_materials" />
-                <marker date="1574508736743" expanded="true" signature="3127:3184" ph="SELECT * FRO... kebs_requirements" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplex/data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-              <folding>
-                <marker date="1574454780703" expanded="true" signature="2123:2173" ph="select *from... formulations" />
-                <marker date="1574454780703" expanded="true" signature="2295:2352" ph="SELECT * FRO... formulations" />
-                <marker date="1574454780703" expanded="true" signature="2688:2744" ph="SELECT * FRO... raw_materials" />
-                <marker date="1574454780703" expanded="true" signature="3085:3142" ph="SELECT * FRO... kebs_requirements" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/php.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simplex.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplex.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#2028#0#PHP" expanded="true" />
-                <marker date="1574605812715" expanded="true" signature="2123:2173" ph="select *from... formulations" />
-                <marker date="1574605812715" expanded="true" signature="2295:2352" ph="SELECT * FRO... formulations" />
-                <marker date="1574605812715" expanded="true" signature="2688:2744" ph="SELECT * FRO... raw_materials" />
-                <marker date="1574605812715" expanded="true" signature="3085:3142" ph="SELECT * FRO... kebs_requirements" />
+                <marker date="1574766233071" expanded="true" signature="367:418" ph="SELECT * FRO... formulations" />
               </folding>
             </state>
           </provider>
@@ -158,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="raw_materials" pinned="false" current-in-tab="false">
+      <file leaf-file-name="raw_materials" pinned="false" current-in-tab="true">
         <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.raw_materials">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -167,13 +157,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TSimplex.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplex/TSimplex.class.php">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="168">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <marker date="1573670270753" expanded="true" signature="1400:1410" ph="..." />
+                <marker date="1574863297893" expanded="true" signature="1289:1371" ph="UPDATE employees... " />
+                <marker date="1574863297893" expanded="true" signature="2560:2602" ph="SELECT * FRO... employees" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1574863703617" expanded="true" signature="212:252" ph="DELETE FROM register_user... " />
               </folding>
             </state>
           </provider>
@@ -184,6 +187,49 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/insert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <marker date="1571215334199" expanded="true" signature="248:388" ph="INSERT INTO tbl_order_items... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1574424320158" expanded="true" signature="134:174" ph="DELETE FROM register_user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form" pinned="false" current-in-tab="false">
+        <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.form">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,13 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/register.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5397d4eb-5e76-48d0-8a95-24bce3c08044/console.sql" />
-        <option value="$PROJECT_DIR$/database/insert.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5397d4eb-5e76-48d0-8a95-24bce3c08044/console_1.sql" />
-        <option value="$PROJECT_DIR$/vendor/jquery/jquery.slim.js" />
-        <option value="$PROJECT_DIR$/savedformulations.php" />
-        <option value="$PROJECT_DIR$/test/Show data.js" />
         <option value="$PROJECT_DIR$/database/saveformulation.php" />
         <option value="$PROJECT_DIR$/formualtion.php" />
         <option value="$PROJECT_DIR$/test/Showdata.html" />
@@ -232,7 +271,6 @@
         <option value="$PROJECT_DIR$/database/update.php" />
         <option value="$PROJECT_DIR$/database/updateusers.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5397d4eb-5e76-48d0-8a95-24bce3c08044/console_2.sql" />
-        <option value="$PROJECT_DIR$/save.php" />
         <option value="$PROJECT_DIR$/test/lpsolver.js" />
         <option value="$PROJECT_DIR$/test/save.php" />
         <option value="$PROJECT_DIR$/test/db.php" />
@@ -245,22 +283,30 @@
         <option value="$PROJECT_DIR$/getDetails.php" />
         <option value="$PROJECT_DIR$/fom.php" />
         <option value="$PROJECT_DIR$/database/db.php" />
-        <option value="$PROJECT_DIR$/farmer.php" />
         <option value="$PROJECT_DIR$/database/login.php" />
         <option value="$PROJECT_DIR$/adminindex.php" />
-        <option value="$PROJECT_DIR$/newrawmaterial.php" />
-        <option value="$PROJECT_DIR$/saveFormulation.php" />
         <option value="$PROJECT_DIR$/simplex/data.php" />
-        <option value="$PROJECT_DIR$/newformulation.php" />
-        <option value="$PROJECT_DIR$/showformulation/show.php" />
-        <option value="$PROJECT_DIR$/adminsidenav.php" />
         <option value="$PROJECT_DIR$/savedformula.php" />
-        <option value="$PROJECT_DIR$/farmersidenav.php" />
         <option value="$PROJECT_DIR$/simplex/test.php" />
-        <option value="$PROJECT_DIR$/optimiseformulation.php" />
         <option value="$PROJECT_DIR$/simplex.js" />
         <option value="$PROJECT_DIR$/simplex.html" />
         <option value="$PROJECT_DIR$/simplex.php" />
+        <option value="$PROJECT_DIR$/optimiseformulation.php" />
+        <option value="$PROJECT_DIR$/save.php" />
+        <option value="$PROJECT_DIR$/adminsidenav.php" />
+        <option value="$PROJECT_DIR$/simplex-master (5)/simplex-master/demo.php" />
+        <option value="$PROJECT_DIR$/farmer.php" />
+        <option value="$PROJECT_DIR$/newrawmaterial.php" />
+        <option value="$PROJECT_DIR$/css/simple-sidebar.css" />
+        <option value="$PROJECT_DIR$/showformulation/vendor/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/newformulation.php" />
+        <option value="$PROJECT_DIR$/farmersidenav.php" />
+        <option value="$PROJECT_DIR$/showformulation/show.php" />
+        <option value="$PROJECT_DIR$/showusers.php" />
+        <option value="$PROJECT_DIR$/read.php" />
+        <option value="$PROJECT_DIR$/update.php" />
+        <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/saveFormulation.php" />
       </list>
     </option>
   </component>
@@ -279,7 +325,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="976" />
-    <option name="height" value="1088" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -299,6 +345,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,17 +363,11 @@
               <item name="lishebora" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="showformulation" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="lishebora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lishebora" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="simplex" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,19 +376,20 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DDL Data Source&#10;MySQL" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simplex-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ken\Desktop\lishebora" />
-      <recent name="C:\Users\Ken\Desktop\lishebora\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ken\Desktop\lishebora" />
       <recent name="C:\Users\Ken\Desktop\lishebora\test" />
       <recent name="C:\Users\Ken\Desktop\lishebora\database" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ken\Desktop\lishebora\simplex-master (5)\simplex-master" />
+      <recent name="C:\Users\Ken\Desktop\lishebora" />
+      <recent name="C:\Users\Ken\Desktop\lishebora\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,30 +404,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.simplex.js">
+  <component name="RunManager" selected="JavaScript Debug.optimiseformulation.php">
+    <configuration name="calculator.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/calculator.php" />
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/index.php" />
     <configuration name="lp.php" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/lishebora/lp.php" />
-    <configuration name="newformulation.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/newformulation.php" />
-    <configuration name="simplex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/simplex.php" working-dir="$PROJECT_DIR$" />
-    <configuration name="optimiseformulation.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/optimiseformulation.php" />
-    <configuration name="show.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/showformulation/show.php" />
+    <configuration name="optimiseformulation.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/optimiseformulation.php" />
+    <configuration name="show.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/showformulation/show.php" />
+    <configuration name="showusers.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lishebora/showusers.php" />
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.lp.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.newformulation.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.show.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.optimiseformulation.php" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.simplex.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.calculator.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.optimiseformulation.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.showusers.php" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.show.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.simplex.js" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.optimiseformulation.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.newformulation.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.show.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.optimiseformulation.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.showusers.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.show.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.calculator.php" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="MYSQL.CreateComplete" value="UseSurrogates=1, CreateIfNotExists=1" />
+      </map>
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -441,7 +490,11 @@
       <workItem from="1574595006227" duration="1341000" />
       <workItem from="1574605547771" duration="864000" />
       <workItem from="1574614026683" duration="3433000" />
-      <workItem from="1574617885681" duration="132000" />
+      <workItem from="1574617885681" duration="197000" />
+      <workItem from="1574761581296" duration="9809000" />
+      <workItem from="1574845428354" duration="7506000" />
+      <workItem from="1574862047474" duration="5618000" />
+      <workItem from="1575052084704" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="login with verification working">
       <created>1570549758821</created>
@@ -492,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574510740936</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="simplex finally working">
+      <created>1574618034686</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574618034687</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212332000" />
+    <option name="totallyTimeSpent" value="235442000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -508,19 +568,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557465" sideWeight="0.49622437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16487648" sideWeight="0.49622437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL Generator" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18635875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33216783" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3651987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33216783" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33549082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39427313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1122449" sideWeight="0.5037756" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -528,10 +589,32 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.49570355" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33216783" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33216783" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33549082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.49570355" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.49622437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09022556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1122449" sideWeight="0.5037756" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -546,7 +629,8 @@
     <MESSAGE value="trial with calculating tables" />
     <MESSAGE value="database stores json format for formulaes" />
     <MESSAGE value="Analyses formulation using simples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Analyses formulation using simples" />
+    <MESSAGE value="simplex finally working" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplex finally working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,52 +639,145 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/studRecords.json">
+    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/php.xml" />
+    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/test.php" />
+    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/setting.php" />
+    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/db.php" />
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/.idea/php.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="92" lean-forward="false" selection-start-line="0" selection-start-column="92" selection-end-line="0" selection-end-column="92" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/delete.php">
+    <entry file="file://$PROJECT_DIR$/simplex/test.php" />
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/simplex-solver-2016-11-19/data.php" />
+    <entry file="file://$PROJECT_DIR$/simplex/data.php" />
+    <entry file="file://$PROJECT_DIR$/database/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/search.php">
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/simplex-master/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/update.php">
+    <entry file="file://$PROJECT_DIR$/savedformula.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="-28">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer-setup.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json" />
+    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/data.php" />
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/simplex-master/demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/simplex-master/LPdefs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1554">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplex-master (5)/simplex-master/LPmethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formualtion.php" />
+    <entry file="file://$PROJECT_DIR$/register2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2562">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1806">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53340">
+          <caret line="2648" column="36" lean-forward="true" selection-start-line="2648" selection-start-column="36" selection-end-line="2648" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplex.php" />
+    <entry file="file://$PROJECT_DIR$/showformulation/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111930">
+          <caret line="5330" column="25" lean-forward="false" selection-start-line="5330" selection-start-column="25" selection-end-line="5330" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/5397d4eb-5e76-48d0-8a95-24bce3c08044.SCHEMA:lishebora">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
           <OriginalElement>5397d4eb-5e76-48d0-8a95-24bce3c08044.SCHEMA:lishebora</OriginalElement>
           <nodes>
-            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.raw_materials</node>
-            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.register_user</node>
-            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.kebs_requirements</node>
-            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.save</node>
-            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.formulations</node>
+            <node x="266.0" y="0.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.kebs_requirements</node>
+            <node x="1.5" y="0.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.register_user</node>
+            <node x="0.0" y="709.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.formulations</node>
+            <node x="281.0" y="709.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.save</node>
+            <node x="528.0" y="0.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.users</node>
+            <node x="0.0" y="303.0">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.raw_materials</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8174603174603174" x="382.0" y="412.0" />
-          <SelectedNodes />
+          <edges>
+            <edge source="5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.raw_materials" target="5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.register_user">
+              <point x="0.0" y="-180.5" />
+              <point x="0.0" y="126.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5427302996670367" x="-313.0" y="412.0" />
+          <SelectedNodes>
+            <node>5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.kebs_requirements</node>
+          </SelectedNodes>
           <Categories>
             <Category>Columns</Category>
             <Category>Key columns</Category>
@@ -609,81 +786,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.save">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/showformulation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Showdata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/read data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1" column="73094" lean-forward="false" selection-start-line="1" selection-start-column="73094" selection-end-line="1" selection-end-column="73094" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Verificationlogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savedformulations.php" />
-    <entry file="file://$PROJECT_DIR$/database/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getDetails.php">
+    <entry file="file://$PROJECT_DIR$/adminsidenav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fom.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="141" column="66" lean-forward="false" selection-start-line="141" selection-start-column="66" selection-end-line="141" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/db.php">
+    <entry file="file://$PROJECT_DIR$/farmer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="1764">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding>
+            <marker date="1574441735592" expanded="true" signature="182:233" ph="SELECT * FRO... raw_materials" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newformulation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newrawmaterial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/farmersidenav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showformulation/show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="112" column="1" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding>
+            <marker date="1574859543681" expanded="true" signature="2014:2071" ph="SELECT * FRO... formulations" />
+            <marker date="1574859543681" expanded="true" signature="2581:2638" ph="SELECT * FRO... formulations" />
+            <marker date="1574859543681" expanded="true" signature="2877:2933" ph="SELECT * FRO... raw_materials" />
+            <marker date="1574859543681" expanded="true" signature="3586:3655" ph="SELECT sum(q... formulations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showusers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="87" column="7" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -694,197 +888,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator.php">
+    <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="105" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <marker date="1574863297893" expanded="true" signature="1289:1371" ph="UPDATE employees... " />
+            <marker date="1574863297893" expanded="true" signature="2560:2602" ph="SELECT * FRO... employees" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/database/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <marker date="1574424320158" expanded="true" signature="134:174" ph="DELETE FROM register_user... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1571215334199" expanded="true" signature="248:388" ph="INSERT INTO tbl_order_items... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplex/.idea/php.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.form">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplex/.idea/simplex-solver-2016-11-19.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.formulations">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lp.php" />
-    <entry file="file://$PROJECT_DIR$/newrawmaterial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showformulation/css/res/minified.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+    <entry file="uml://DATABASE/5397d4eb-5e76-48d0-8a95-24bce3c08044">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5397d4eb-5e76-48d0-8a95-24bce3c08044</OriginalElement>
+          <nodes>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.kebs_requirements</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.form</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.register_user</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.formulations</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.save</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.users</node>
+            <node x="" y="">5397d4eb-5e76-48d0-8a95-24bce3c08044.TABLE:lishebora.raw_materials</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8546059933407325" x="370.0" y="301.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/saveFormulation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminindex.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farmer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formualtion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="68" lean-forward="false" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newformulation.php">
+    <entry file="file://$PROJECT_DIR$/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showformulation/show.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1574863703617" expanded="true" signature="212:252" ph="DELETE FROM register_user... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farmersidenav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="104" lean-forward="false" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
+        <state relative-caret-position="441">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savedformula.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <marker date="1574507549121" expanded="true" signature="367:418" ph="SELECT * FRO... formulations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplex/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#61#2070#0#PHP" expanded="false" />
-            <marker date="1574508736743" expanded="true" signature="2165:2215" ph="select *from... formulations" />
-            <marker date="1574508736743" expanded="true" signature="2337:2394" ph="SELECT * FRO... formulations" />
-            <marker date="1574508736743" expanded="true" signature="2730:2786" ph="SELECT * FRO... raw_materials" />
-            <marker date="1574508736743" expanded="true" signature="3127:3184" ph="SELECT * FRO... kebs_requirements" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/optimiseformulation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="126">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding>
-            <marker date="1574508736716" expanded="true" signature="367:418" ph="SELECT * FRO... formulations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplex/TSimplex.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <marker date="1573670270753" expanded="true" signature="1400:1410" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminsidenav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplex.html" />
-    <entry file="file://$PROJECT_DIR$/simplex.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#2028#0#PHP" expanded="true" />
-            <marker date="1574605812715" expanded="true" signature="2123:2173" ph="select *from... formulations" />
-            <marker date="1574605812715" expanded="true" signature="2295:2352" ph="SELECT * FRO... formulations" />
-            <marker date="1574605812715" expanded="true" signature="2688:2744" ph="SELECT * FRO... raw_materials" />
-            <marker date="1574605812715" expanded="true" signature="3085:3142" ph="SELECT * FRO... kebs_requirements" />
+            <marker date="1574766233071" expanded="true" signature="367:418" ph="SELECT * FRO... formulations" />
           </folding>
         </state>
       </provider>
@@ -900,34 +1005,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/3ffc4b4e/5397d4eb-5e76-48d0-8a95-24bce3c08044/lishebora.formulations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplex/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-          <folding>
-            <marker date="1574454780703" expanded="true" signature="2123:2173" ph="select *from... formulations" />
-            <marker date="1574454780703" expanded="true" signature="2295:2352" ph="SELECT * FRO... formulations" />
-            <marker date="1574454780703" expanded="true" signature="2688:2744" ph="SELECT * FRO... raw_materials" />
-            <marker date="1574454780703" expanded="true" signature="3085:3142" ph="SELECT * FRO... kebs_requirements" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplex-solver-2016-11-19/.idea/php.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -34,9 +34,9 @@
         <div class="sidebar-heading">Lishe Bora </div>
         <div class="list-group list-group-flush">
             <a href="./test/save.php" class="list-group-item list-group-item-action bg-light">Create new formulation</a>
-            <a href="./newrawmaterial.php" class="list-group-item list-group-item-action bg-light">Insert new raw materials</a>
-            <a href="savedformula.php" class="list-group-item list-group-item-action bg-light">View saved formulations</a>
-            <a href="savedformula.php" class="list-group-item list-group-item-action bg-light">Optimise formulations</a>
+            <a href="../lishebora/newrawmaterial.php" class="list-group-item list-group-item-action bg-light">Insert new raw materials</a>
+            <a href="../lishebora/savedformula.php" class="list-group-item list-group-item-action bg-light">View saved formulations</a>
+            <a href="../lishebora/savedformula.php" class="list-group-item list-group-item-action bg-light">Optimise formulations</a>
 
             <a href="logout.php" class="list-group-item list-group-item-action bg-light">logout</a>
 
